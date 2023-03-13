@@ -83,6 +83,13 @@ h1{
     }
  }
  @media(max-width:660px) {
+   h1{
+      display: flex;
+      justify-content: center; 
+      margin-top: 40px;
+      margin-bottom: -50px;
+      color: rgb(250, 20, 20);;
+}
     .gallery-item{
         width: calc(100%/1);
         padding: 15px;
